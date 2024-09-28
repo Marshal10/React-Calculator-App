@@ -1,9 +1,9 @@
+import "./CalculatorApp.css";
+
 function CalculatorApp() {
   return (
     <div className="calculator">
-      <div className="input-textbox">
-        <input type="text" />
-      </div>
+      <div className="screen">0</div>
       <div className="btns-container">
         <div className="row">
           <button className="clear">AC</button>
